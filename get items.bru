@@ -1,0 +1,29 @@
+meta {
+  name: get items
+  type: http
+  seq: 3
+}
+
+get {
+  url: https://api.kitek-pg.ru/api/marketplace/items
+  body: json
+  auth: none
+}
+
+body:json {
+  [
+    {
+      "id": 1795234767488,
+      "title": "Nothing",
+      "description": "10 тонн воздуха",
+      "price": 50000,
+      "userId": 1,
+      "username": "mnqq2",
+      "status": "active",
+      "imageUrl": "https://example.com/laptop.jpg",
+      "createdAt": "2025-10-07T16:45:52.058Z",
+      "highestBid": 55000,
+      "bidCount": 3
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+meta {
+  name: add items
+  type: http
+  seq: 5
+}
+
+post {
+  url: https://api.kitek-pg.ru/api/marketplace/items
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "title": "Verity",
+    "description": "Hey, it's me, it's Verity / Ask me anything (I got a question) / I know about a million things (Well, that's great) / I'll do about a million things/ I'll do anything!",
+    "price": 400000000,
+    "imageUrl": "https://example.com/polomoyka.jpg"
+  }
+}

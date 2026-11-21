@@ -1,0 +1,19 @@
+meta {
+  name: register
+  type: http
+  seq: 1
+}
+
+post {
+  url: https://api.kitek-pg.ru/api/marketplace/auth/register
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "username": "mnqq3",
+    "password": "123123",
+    "email": "mnqq3@gmail.com"
+  }
+}
